@@ -120,13 +120,13 @@
 
 // // Your web app's Firebase configuration
 // var firebaseConfig = {
-//   apiKey: "AIzaSyBzT9Ll9BfZ3ZSOUCm1WKvXVMF9CPKtCjc",
-//   authDomain: "portfolio-a089f.firebaseapp.com",
-//   databaseURL: "https://portfolio-a089f.firebaseio.com",
-//   projectId: "portfolio-a089f",
+//   apiKey: "",
+//   authDomain: "",
+//   databaseURL: "",
+//   projectId: "",
 //   storageBucket: "",
-//   messagingSenderId: "617932475716",
-//   appId: "1:617932475716:web:85b094abcd8664d069db11"
+//   messagingSenderId: "",
+//   appId: ""
 // };
 // // Initialize Firebase
 // firebase.initializeApp(firebaseConfig);
