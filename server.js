@@ -9,7 +9,7 @@ app.use("/puclic",express.static("puclic"));
 app.use(express.static("public"));
 app.use(express.static(path.join('public')));
 
-// Parse application body as JSON
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
