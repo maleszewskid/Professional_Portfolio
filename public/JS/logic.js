@@ -118,39 +118,6 @@
 
 
 
-// // Your web app's Firebase configuration
-// var firebaseConfig = {
-//   apiKey: "",
-//   authDomain: "",
-//   databaseURL: "",
-//   projectId: "",
-//   storageBucket: "",
-//   messagingSenderId: "",
-//   appId: ""
-// };
-// // Initialize Firebase
-// firebase.initializeApp(firebaseConfig);
-
-
-// var database = firebase.database();
-
-// $("#submit").on("click", function (event) {
-//   event.preventDefault();
-
-//   var first = $("#first").val().trim();
-//   var last = $("#last").val().trim();
-//   var email = $("#email").val().trim();
-//   var comment = $("#comment").val().trim();
-//   var time = moment().format('LLL');
-
-//   var newInput = {
-//     newFirst: first,
-//     newLast: last,
-//     newEmail: email,
-//     newComment: comment,
-//     inputTime: time,
-//   };
-
 //   if (first === "") {
 //     alert("Please enter your name!")
 //   } else if (last === "") {
