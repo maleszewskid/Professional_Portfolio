@@ -7,7 +7,7 @@ var path = require('path');
 
 
 // Serve static content for the app from the "public" directory in the application directory.
-app.use("/public",express.static("public"));
+app.use("/puclic",express.static("puclic"));
 app.use(express.static("public"));
 app.use(express.static(path.join('public')));
 
