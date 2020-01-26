@@ -1,7 +1,9 @@
 {
   "name": "professional_portfolio",
   "version": "1.0.0",
-  "description": "",
+  "engines":{ "node": "10.16.0"
+  },
+  "description": "profession_portfolio",
   "main": "server.js",
   "dependencies": {
     "dotenv": "^8.2.0",
