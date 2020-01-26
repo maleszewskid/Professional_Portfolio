@@ -1,6 +1,5 @@
 {
   "name": "professional_portfolio",
-  "author": "maleszewskid",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -19,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/maleszewskid/Professional_Portfolio.git"
   },
-  "author": "",
+  "author": "maleszewskid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maleszewskid/Professional_Portfolio"
