@@ -7,6 +7,7 @@ body.active {
     overflow: hidden;
     z-index: -1
 }
+
 #bName{
     
     @media (min-width: 1200px){
@@ -133,7 +134,12 @@ header a:focus {
     color: rgb(8, 20, 29);
     text-decoration: none
 }
-
+#about{
+    text-align: center;
+}
+#info{
+    font-size:20px;
+}
 header.active {
     display: block
 }
@@ -145,9 +151,12 @@ header.sticky {
 #learn{
     color: #d0d7de;
     margin-top: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 #menu{
     border: 1px solid #346396;
+    background-image: url(../files/background3.PNG);
 }
 #menu.active {
     display: block
@@ -353,6 +362,7 @@ footer {
     
 }
 
+
 #lead-down {
     position: absolute;
     left: 0;
@@ -397,13 +407,16 @@ footer {
     padding: 75px 15px;
     border-bottom: 1px solid #346396;
     background-color:#0c2238;
-    border: 1px solid #346396
-    ;
+    border: 1px solid #346396;
+    background-image: url(../files/background2.PNG);
+
 
 }
 
 #about h2 {
-    color: #d0d7de
+    color: #d0d7de;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #about p {
@@ -414,12 +427,15 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #346396
+    border-bottom: 1px solid #346396;
+    background-image: url(../files/background3.PNG);
 
 }
 
 #experience h2 {
-    color: #d0d7de
+    color: #d0d7de;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #experience-timeline {
@@ -448,6 +464,7 @@ footer {
     height: 40px;
     background: rgb(8, 20, 29);
     background: linear-gradient(to bottom, rgb(8, 20, 29), rgba(52, 152, 219, 0));
+    background-image: url(../files/background3.PNG);
     top: 100%;
     left: 303px
 }
@@ -521,12 +538,15 @@ footer {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #346396
     ;background-color: #0c2238;
-    text-align: center
+    text-align: center;
+    background-image: url(../files/background2.PNG);
     
 }
 
 #education h2 {
     color: #d0d7de;
+    font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 50px
 }
 
@@ -572,11 +592,14 @@ footer {
     padding: 50px 15px;
     border-bottom: 1px solid #346396
     ;
-    text-align: center
+    text-align: center;
+    background-image: url(../files/background3.PNG);
 }
 
 #projects h2 {
     color: #d0d7de;
+    font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 50px
 }
 
@@ -629,10 +652,14 @@ footer {
     padding: 50px 15px;
     text-align: center;
     background-color:#0c2238;
+    background-image: url(../files/background2.PNG);
+    border-bottom: 1px solid #346396
 }
 
 #skills h2 {
     color: #d0d7de;
+    font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 50px
 }
 
@@ -657,11 +684,15 @@ footer {
 #contact {
     padding: 50px 15px;
     background: rgb(8, 20, 29);
-    text-align: center
+    background-image: url(../files/background3.PNG);
+    text-align: center;
+    border-bottom: 1px solid #346396
 }
 
 #contact h2 {
     margin: 0 0 15px 0;
+    font-weight: bold;
+    text-transform: uppercase;
     color: #d0d7de;
     font-weight: 500
 }
@@ -832,6 +863,7 @@ footer {
 }
 footer{
     color:#0c2238;
+    background-image: url(../files/background4.PNG);
 }
 .fa-github{
     color:#0c2238;
