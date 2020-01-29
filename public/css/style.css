@@ -472,7 +472,7 @@ footer {
 .vtimeline-content {
     margin-left: 350px;
     background: #d0d7de;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #0c2238;
     padding: 15px;
     border-radius: 3px;
     text-align: left
@@ -481,7 +481,7 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #d0d7de;
+    color: #0c2238;
     display: inline-block;
     margin: 0
 }
@@ -494,7 +494,7 @@ footer {
 }
 
 .vtimeline-content p {
-    color: #d0d7de;
+    color: #0c2238;
     font-size: 0.9em;
     margin: 0
 }
