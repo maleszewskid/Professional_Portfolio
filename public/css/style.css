@@ -867,8 +867,12 @@ footer{
 }
 .fa-github{
     color:#0c2238;
+    font-weight: bold;
 }
 .fa-linkedin{
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
     color:#0c2238;
 }
 #email2{
