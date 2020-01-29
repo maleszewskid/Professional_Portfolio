@@ -1,30 +1,23 @@
-$(document).ready(function () {
+var firebaseConfig = {
+    apiKey: "AIzaSyB_u64MjpDHqA7cw3xQ4QCAnnlRvpcLfi8",
+    authDomain: "domm-a7373.firebaseapp.com",
+    databaseURL: "https://domm-a7373.firebaseio.com",
+    projectId: "domm-a7373",
+    storageBucket: "",
+    messagingSenderId: "651633677889",
+    appId: "1:651633677889:web:8731b3f75b269e2c6658c0"
+};
 
+firebase.initializeApp(firebaseConfig);
 
-    $("#submit").on("click", function (event) {
-        event.preventDefault();
+var database = firebase.database();
+$(document).on("click", "#submit", function() {
+    var contact = {
+        name: $("#name").val(),
+        email: $("#email").val(),
+        message: $("#message").val()
+    }
 
-        let newContact = {
-            contact_name: $("#name").val().trim(),
-            email: $("#email").val().trim(),
-            body: $("#body").val().trim(),
-            created_at: moment().format("YYYY-MM-DD HH:mm:ss")
-        }
-        var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-        if (testEmail.test(newContact.email)) {
-            console.log(newContact);
-            $.ajax("/api/new", {
-                type: "POST",
-                data: newContact
-
-            }).then(function (data) {
-                location.reload();
-                alert("Thank you for your submission!")
-            })
-
-        }
-
-        else
-            alert("Please enter a valid email address!")
-    })
+    database.ref("/emails/" + contact.name).push(contact)
+    window.open('');
 })
