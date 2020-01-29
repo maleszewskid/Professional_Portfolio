@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     user: "root",
     password: "",
-    database: "professional-portfolio",
+    database: "om5j7gv59hua5y2e",
     insecureAuth : true
     });
   }
@@ -28,17 +28,17 @@ connection.connect(function(err) {
 
 module.exports = {
     "development": {
-        "username": process.env.DB_USERNAME,
-        "password": process.env.DB_PASSWORD,
-        "database": process.env.DB_DATABASE,
-        "host": process.env.DB_HOST,
-        "dialect": "mysql"
-    },
+      "username": process.env.DB_USERNAME,
+      "password": process.env.DB_PASSWORD,
+      "database": process.env.DB_DATABASE,
+      "host": process.env.DB_HOST,
+      "dialect": "mysql"
+  },
     "test": {
         "username": "root",
         "password": "",
         "database": "database_test",
-        "host": "fugfonv8odxxolj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "host": "localhost",
         "dialect": "mysql"
     },
     "production": {
