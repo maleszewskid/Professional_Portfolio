@@ -117,14 +117,14 @@
     
         <div id="education">
             <h2 class="heading">Education</h2>
-            <div class="education-block">
+            <div id="Upenn" class="education-block">
                 <h3>University of Pennsylvania</h3>
                 <span class="education-date">August 2019 - February 2020</span>
                 <h4>Penn LPS Coding Boot Camp</h4>
                 <p>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript,
                     JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</p>
             </div>
-            <div class="education-block">
+            <div id="Etown" class="education-block">
                 <h3>Elizabethtown College</h3>
                 <span class="education-date">Graduated July 2019</span>
                 <h4>Bachelor of Science in Biology</h4>
@@ -357,7 +357,14 @@
         window.open( 
       "https://github.com/maleszewskid/RPS-multiplayer", "_blank");
     })
-
+    $("#Upenn").on("click", function(){
+        window.open( 
+      "https://github.com/maleszewskid/Project-3", "_blank");
+    })
+    $("#Etown").on("click", function(){
+        window.open( 
+      "https://github.com/maleszewskid/Project-3", "_blank");
+    })
 </script>
 <script src="public/JS/logic.js"></script>
 <script src="public/JS/db.js"></script>
