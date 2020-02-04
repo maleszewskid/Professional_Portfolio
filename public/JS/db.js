@@ -19,5 +19,4 @@ $(document).on("click", "#submit", function() {
     }
 
     database.ref("/emails/" + contact.name).push(contact)
-    window.open('https://maleszewskid.github.io/Professional_Portfolio/');
-})
+  })
