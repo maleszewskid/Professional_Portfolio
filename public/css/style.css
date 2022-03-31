@@ -125,7 +125,7 @@ header a {
 
 header a:hover {
     color: #217dbb;
-    text-decoration: none;
+    text-decoration: none; 
     background: #eee;
     border-radius: 4px
 }
